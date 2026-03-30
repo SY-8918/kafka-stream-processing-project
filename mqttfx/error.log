@@ -1,0 +1,1011 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/Session%202/Hafed_420-D05/3-10_kafka2-20260112T235559Z-3-001/mqttfx/lib/log4j-slf4j-impl-2.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/Session%202/Hafed_420-D05/3-10_kafka2-20260112T235559Z-3-001/mqttfx/lib/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2026-01-12 19:07:51,004  INFO --- Start App                      : Style: LIGHT /styles/mqttfx_theme_light.css
+2026-01-12 19:07:51,363  WARN --- Updater                        : Could not establish connection to URL ''http://www.jensd.de/apps/mqttfx/appcast.xml'': 403 http://www.jensd.de/apps/mqttfx/appcast.xml
+2026-01-12 19:07:51,367  INFO --- ScriptingManager               : Found action with name: Switch Fountain Test
+2026-01-12 19:09:04,617  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:09:04,667  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_FX_Client assigned.
+2026-01-12 19:09:08,808 ERROR --- MqttFX ClientModel            2026-01-12 19:19:09,848  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:19:09,902  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_FX_Client assigned.
+2026-01-12 19:19:14,019 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 8 more
+2026-01-12 19:19:14,023 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 8 more
+2026-01-12 19:19:14,029  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:19:14,030 ERROR --- BrokerConnectService           : Unable to connect to server
+2026-01-12 19:19:55,955  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:19:55,957  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:19:55,960  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_FX_Client assigned.
+2026-01-12 19:20:00,043 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 8 more
+2026-01-12 19:20:00,047 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 8 more
+2026-01-12 19:20:00,054  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:20:00,055 ERROR --- BrokerConnectService           : Unable to connect to server
+2026-01-12 19:20:14,039  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:20:14,041  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:20:14,044  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_FX_Client assigned.
+2026-01-12 19:20:18,158 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 8 more
+2026-01-12 19:20:18,159 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors2026-01-12 19:23:55,401  INFO --- BrokerConnectorController      : onDisconnect
+2026-01-12 19:23:55,401  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 19:23:55,401  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 19:23:55,411  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:23:55,412  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:23:55,415  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 19:24:28,214  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:24:28,215  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:24:28,219  INFO --- MqttFX ClientModel             : MqttClient with ID 4636995c712749c7b5c8e7d157898b51 assigned.
+2026-01-12 19:24:28,968  INFO --- MqttFX ClientModel             : session present: false
+2026-01-12 19:24:43,448  INFO --- PublishController              : publish
+2026-01-12 19:24:43,450  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:24:43,450  INFO --- MqttFX ClientModel             : sucessfully published message salut toto to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:31:46,292  INFO --- PublishController              : publish
+2026-01-12 19:31:46,293  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:31:46,293  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:31:47,595  INFO --- PublishController              : publish
+2026-01-12 19:31:47,596  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:31:47,596  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:05,489  INFO --- PublishController              : publish
+2026-01-12 19:34:05,490  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:05,490  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:09,155  INFO --- PublishController              : publish
+2026-01-12 19:34:09,157  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:09,157  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:09,374  INFO --- PublishController              : publish
+2026-01-12 19:34:09,375  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:09,375  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:09,550  INFO --- PublishController              : publish
+2026-01-12 19:34:09,551  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:09,551  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:12,307  INFO --- PublishController              : publish
+2026-01-12 19:34:12,308  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:12,308  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:12,515  INFO --- PublishController              : publish
+2026-01-12 19:34:12,515  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:12,517  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:12,883  INFO --- PublishController              : publish
+2026-01-12 19:34:12,884  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:12,884  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:13,084  INFO --- PublishController              : publish
+2026-01-12 19:34:13,085  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:13,085  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:13,259  INFO --- PublishController              : publish
+2026-01-12 19:34:13,260  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:13,260  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:13,434  INFO --- PublishController              : publish
+2026-01-12 19:34:13,435  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:13,435  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:13,620  INFO --- PublishController              : publish
+2026-01-12 19:34:13,621  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:13,621  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:55,033  INFO --- PublishController              : publish
+2026-01-12 19:34:55,034  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:55,034  INFO --- MqttFX ClientModel             : sucessfully published message {'temperateur_youness':36} to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:34:57,510  INFO --- PublishController              : publish
+2026-01-12 19:34:57,510  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:34:57,510  INFO --- MqttFX ClientModel             : sucessfully published message ON to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:35:28,556  INFO --- PublishController              : publish
+2026-01-12 19:35:28,557  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:35:28,557  INFO --- MqttFX ClientModel             : sucessfully published message OFF to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:35:34,189  INFO --- PublishController              : publish
+2026-01-12 19:35:34,191  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 19:35:34,191  INFO --- MqttFX ClientModel             : sucessfully published message ON to topic home/garden/fountain (QoS 0, Retained: false)
+2026-01-12 19:40:51,409  INFO --- BrokerConnectorController      : onDisconnect
+2026-01-12 19:40:51,410  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:40:51,410  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 19:40:51,410  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 19:40:51,417  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:40:51,418  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:40:51,420  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 19:42:04,963  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:42:04,964  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:42:04,968  INFO --- MqttFX ClientModel             : MqttClient with ID 4636995c712749c7b5c8e7d157898b51 assigned.
+2026-01-12 19:42:05,707  INFO --- MqttFX ClientModel             : session present: false
+2026-01-12 20:23:06,087  INFO --- BrokerConnectorController      : onDisconnect
+2026-01-12 20:23:06,088  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:23:06,088  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 20:23:06,088  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 20:23:06,142  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:23:06,142  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:23:06,144  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 20:25:20,638  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:25:20,640  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:25:20,644  INFO --- MqttFX ClientModel             : MqttClient with ID 4636995c712749c7b5c8e7d157898b51 assigned.
+2026-01-12 20:25:21,545  INFO --- MqttFX ClientModel             : session present: false
+2026-01-12 20:26:10,074  INFO --- BrokerConnectorController      : onDisconnect
+2026-01-12 20:26:10,075  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:10,075  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 20:26:10,076  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 20:26:10,083  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:10,085  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:10,086  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 20:26:38,800  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:26:38,801  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:38,804  INFO --- MqttFX ClientModel             : MqttClient with ID 4636995c712749c7b5c8e7d157898b51 assigned.
+2026-01-12 20:26:39,543  INFO --- MqttFX ClientModel             : session present: false
+2026-01-12 20:34:30,726  INFO --- PublishController              : publish
+2026-01-12 20:34:30,729  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:34:30,729  INFO --- MqttFX ClientModel             : addPublishTopic : Capteur
+2026-01-12 20:34:30,730  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:34:36,895  INFO --- PublishController              : publish
+2026-01-12 20:34:36,897  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:34:36,897  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:34:37,789  INFO --- PublishController              : publish
+2026-01-12 20:34:37,791  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:34:37,791  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:35:09,874  INFO --- PublishController              : publish
+2026-01-12 20:35:09,875  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:35:09,875  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:35:11,124  INFO --- PublishController              : publish
+2026-01-12 20:35:11,125  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:35:11,126  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:35:26,954  INFO --- PublishController              : publish
+2026-01-12 20:35:26,956  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:35:26,956  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:35:27,157  INFO --- PublishController              : publish
+2026-01-12 20:35:27,158  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:35:27,158  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:35:27,332  INFO --- PublishController              : publish
+2026-01-12 20:35:27,332  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:35:27,332  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:35:27,507  INFO --- PublishController              : publish
+2026-01-12 20:35:27,508  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:35:27,508  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:36:12,241  INFO --- PublishController              : publish
+2026-01-12 20:36:12,241  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:36:12,242  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 20:36:52,278  INFO --- PublishController              : publish
+2026-01-12 20:36:52,279  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:36:52,279  INFO --- MqttFX ClientModel             : sucessfully published message {'trmperature_younes':24}
+{'temp_koko_34'} to topic Capteur (QoS 0, Retained: false)
+2026-01-12 21:02:28,334  INFO --- BrokerConnectorController      : onDisconnect
+2026-01-12 21:02:28,336  INFO --- ScriptsController              : Clear console.
+2026-01-12 21:02:28,336  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 21:02:28,336  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 21:02:28,362  INFO --- ScriptsController              : Clear console.
+2026-01-12 21:02:28,364  INFO --- ScriptsController              : Clear console.
+2026-01-12 21:02:28,367  INFO --- ScriptsController              : Cancel script excution.
+2026-01-12 21:02:29,648  INFO --- mqttfx                         : closeApp()
+Weld SE container STATIC_INSTANCE shut down by shutdown hook.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:28:50,385 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:28:50,394  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:28:50,395 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:29:02,900  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:29:02,901  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:02,903  INFO --- MqttFX ClientModel             : MqttClient with ID e15bb12a03d74883964940ebe309bb42 assigned.
+2026-01-12 19:29:04,398 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:04,399 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:04,401  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:04,402 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:29:47,088  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:29:47,090  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:47,093  INFO --- MqttFX ClientModel             : MqttClient with ID e15bb12a03d74883964940ebe309bb42 assigned.
+2026-01-12 19:29:48,631 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:48,632 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:48,640  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:48,640 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:29:50,860  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:29:50,861  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:50,863  INFO --- MqttFX ClientModel             : MqttClient with ID e15bb12a03d74883964940ebe309bb42 assigned.
+2026-01-12 19:29:52,410 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:52,411 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:52,415  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:52,417 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:29:54,605  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:29:54,605  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:54,609  INFO --- MqttFX ClientModel             : MqttClient with ID e15bb12a03d74883964940ebe309bb42 assigned.
+2026-01-12 19:29:56,097 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:56,097 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:56,105  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:56,107 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:29:58,480  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:29:58,482  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:58,489  INFO --- MqttFX ClientModel             : MqttClient with ID e15bb12a03d74883964940ebe309bb42 assigned.
+2026-01-12 19:29:59,983 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:59,984 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:29:59,990  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:29:59,990 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:30:27,737  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:30:27,739  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:30:27,748  INFO --- MqttFX ClientModel             : MqttClient with ID 9a13b57c3e744db09be198f721a1372d assigned.
+2026-01-12 19:30:29,272 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:30:29,273 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:30:29,277  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:30:29,278 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:32:15,981  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:32:15,982  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:32:15,985  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_FX_Client assigned.
+2026-01-12 19:32:57,797  INFO --- BrokerConnectorController      : onConnectCancel
+2026-01-12 19:32:57,798 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:148) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:108) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttClient.connectWithResult(MqttClient.java:341) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.mqttBrokerConnect(MqttFXClientModel.java:498) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.connect(MqttFXClientModel.java:470) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:68) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:65) ~[MQTT.fx-jfx.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423) ~[jfxrt.jar:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$null$493(Service.java:725) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$executeTask$494(Service.java:724) ~[jfxrt.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method) ~[?:1.8.0_181]
+	at java.lang.Object.wait(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:143) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 15 more
+2026-01-12 19:32:57,799  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:32:57,799 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:148) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:108) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttClient.connectWithResult(MqttClient.java:341) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.mqttBrokerConnect(MqttFXClientModel.java:498) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.connect(MqttFXClientModel.java:470) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:68) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:65) ~[MQTT.fx-jfx.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423) ~[jfxrt.jar:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$null$493(Service.java:725) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$executeTask$494(Service.java:724) ~[jfxrt.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method) ~[?:1.8.0_181]
+	at java.lang.Object.wait(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:143) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 15 more
+2026-01-12 19:33:29,080  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:33:29,083  INFO --- MqttFX ClientModel             : MqttClient with ID f4191753943b48a08c467cc62a773440 assigned.
+2026-01-12 19:33:30,627 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:33:30,628 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:33:30,631  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:33:30,632 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:33:33,184  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:33:33,185  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:33:33,189  INFO --- MqttFX ClientModel             : MqttClient with ID f4191753943b48a08c467cc62a773440 assigned.
+2026-01-12 19:33:34,685 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:33:34,685 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:33:34,688  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:33:34,689 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:35:04,991  INFO --- mqttfx                         : closeApp()
+2026-01-12 19:35:49,188  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:35:49,189  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:35:49,193  INFO --- MqttFX ClientModel             : MqttClient with ID f4191753943b48a08c467cc62a773440 assigned.
+2026-01-12 19:36:17,022  INFO --- BrokerConnectorController      : onConnectCancel
+2026-01-12 19:36:17,022 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:148) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:108) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttClient.connectWithResult(MqttClient.java:341) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.mqttBrokerConnect(MqttFXClientModel.java:498) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.connect(MqttFXClientModel.java:470) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:68) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:65) ~[MQTT.fx-jfx.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423) ~[jfxrt.jar:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$null$493(Service.java:725) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$executeTask$494(Service.java:724) ~[jfxrt.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method) ~[?:1.8.0_181]
+	at java.lang.Object.wait(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:143) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 15 more
+2026-01-12 19:36:17,024  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:36:17,024 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:148) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:108) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.MqttClient.connectWithResult(MqttClient.java:341) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.mqttBrokerConnect(MqttFXClientModel.java:498) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.model.MqttFXClientModel.connect(MqttFXClientModel.java:470) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:68) ~[MQTT.fx-jfx.jar:?]
+	at de.jensd.mqttfx.services.BrokerConnectService$1.call(BrokerConnectService.java:65) ~[MQTT.fx-jfx.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423) ~[jfxrt.jar:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$null$493(Service.java:725) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at javafx.concurrent.Service.lambda$executeTask$494(Service.java:724) ~[jfxrt.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method) ~[?:1.8.0_181]
+	at java.lang.Object.wait(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForResponse(Token.java:143) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 15 more
+2026-01-12 19:36:50,491  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:36:50,496  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 19:36:51,958 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:36:51,959 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:36:51,970  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:36:51,971 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:36:56,382  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:36:56,383  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:36:56,385  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 19:36:57,841 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:36:57,842 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:36:57,851  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:36:57,852 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:38:50,193  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:38:50,193  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:38:50,195  INFO --- MqttFX ClientModel             : MqttClient with ID projects/ENTER-YOUR-IOT-PROJECT-ID/locations/us-central1/registries/ENTER-YOUR-REGISTRY-ID/devices/ENTER-YOUR-DEVICE-ID assigned.
+2026-01-12 19:38:50,560  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:38:50,561 ERROR --- BrokerConnectService           : rsa_private_pkcs8
+2026-01-12 19:39:31,232  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:39:31,234  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:39:31,246  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 19:39:32,777 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:39:32,778 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:39:32,785  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:39:32,788 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 19:40:03,475  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:40:03,475  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:40:03,480  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 19:40:04,043 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: Connection lost
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:181) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:92) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:133) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 7 more
+2026-01-12 19:40:04,044 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: Connection lost
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:181) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:92) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:133) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 7 more
+2026-01-12 19:40:04,047  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:40:04,048 ERROR --- BrokerConnectService           : Connection lost
+2026-01-12 19:40:05,023  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:40:05,024  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:40:05,026  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 19:40:05,554 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: Connection lost
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:181) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:92) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:133) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 7 more
+2026-01-12 19:40:05,555 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: Connection lost
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:181) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:92) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:133) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 7 more
+2026-01-12 19:40:05,558  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:40:05,558 ERROR --- BrokerConnectService           : Connection lost
+2026-01-12 19:41:56,913  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 19:41:56,914  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:41:56,925  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 19:41:58,418 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:41:58,419 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 19:41:58,421  INFO --- ScriptsController              : Clear console.
+2026-01-12 19:41:58,422 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 20:21:40,737  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:21:40,738  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:21:40,741  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_FX_Client assigned.
+2026-01-12 20:22:22,839 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 8 more
+2026-01-12 20:22:22,840 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttException: Unable to connect to server
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	... 8 more
+2026-01-12 20:22:22,845  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:22:22,846 ERROR --- BrokerConnectService           : Unable to connect to server
+2026-01-12 20:26:01,642  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:26:01,643  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:01,648  INFO --- MqttFX ClientModel             : MqttClient with ID 7f50e9878eda4a89ab2c4670be8b0706 assigned.
+2026-01-12 20:26:03,367 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:26:03,370 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:26:03,375  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:03,375 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 20:26:12,588  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:26:12,589  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:12,591  INFO --- MqttFX ClientModel             : MqttClient with ID 7f50e9878eda4a89ab2c4670be8b0706 assigned.
+2026-01-12 20:26:14,155 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:26:14,156 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:26:14,168  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:26:14,169 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 20:27:19,294  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:27:19,295  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:27:19,298  INFO --- MqttFX ClientModel             : MqttClient with ID 7f50e9878eda4a89ab2c4670be8b0706 assigned.
+2026-01-12 20:27:20,739 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:27:20,740 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:27:20,746  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:27:20,747 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 20:27:47,540  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:27:47,541  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:27:47,543  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 20:27:49,142 ERROR --- MqttFX ClientModel             : Error when connecting
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:27:49,143 ERROR --- MqttFX ClientModel             : Please verify your Settings (e.g. Broker Address, Broker Port & Client ID) and the user credentials!
+org.eclipse.paho.client.mqttv3.MqttSecurityException: Not authorized to connect
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:28) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.notifyReceivedAck(ClientState.java:988) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:145) ~[org.eclipse.paho.client.mqttv3-1.2.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2026-01-12 20:27:49,160  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:27:49,161 ERROR --- BrokerConnectService           : Not authorized to connect
+2026-01-12 20:28:17,941  INFO --- BrokerConnectorController      : onConnect
+2026-01-12 20:28:17,942  INFO --- ScriptsController              : Clear console.
+2026-01-12 20:28:17,945  INFO --- MqttFX ClientModel             : MqttClient with ID 02b012a53e744b06aacf6f2872cd57e2 assigned.
+2026-01-12 20:28:18,745  INFO --- MqttFX ClientModel             : session present: false
+2026-01-12 20:35:15,404  INFO --- SubscribeController            : onSubscribe
+2026-01-12 20:35:15,540  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2026-01-12 20:35:15,542  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2026-01-12 20:35:15,542  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@ec842e0
+2026-01-12 20:35:15,543  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2026-01-12 20:35:15,544  INFO --- MqttFX ClientModel             : addPublishTopic : Capteur
+2026-01-12 20:35:15,545  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic Capteur (QoS 0)
+2026-01-12 20:35:27,084  INFO --- MqttFX ClientModel             : messageArrived() with topic: Capteur
+2026-01-12 20:35:27,099  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'Capteur'
+2026-01-12 20:35:27,284  INFO --- MqttFX ClientModel             : messageArrived() with topic: Capteur
+2026-01-12 20:35:27,284  INFO --- MqttFX ClientModel             : messageArrived() added: message #2 to topic 'Capteur'
+2026-01-12 20:35:27,456  INFO --- MqttFX ClientModel             : messageArrived() with topic: Capteur
+2026-01-12 20:35:27,458  INFO --- MqttFX ClientModel             : messageArrived() added: message #3 to topic 'Capteur'
+2026-01-12 20:35:27,635  INFO --- MqttFX ClientModel             : messageArrived() with topic: Capteur
+2026-01-12 20:35:27,637  INFO --- MqttFX ClientModel             : messageArrived() added: message #4 to topic 'Capteur'
+2026-01-12 20:35:52,943  INFO --- SubscribeController            : onClearTopicsHistory
+2026-01-12 20:36:04,094  INFO --- SubscribeController            : onClearMessagesHistory
+2026-01-12 20:36:12,371  INFO --- MqttFX ClientModel             : messageArrived() with topic: Capteur
+2026-01-12 20:36:12,372  INFO --- MqttFX ClientModel             : messageArrived() added: message #5 to topic 'Capteur'
+2026-01-12 20:36:52,404  INFO --- MqttFX ClientModel             : messageArrived() with topic: Capteur
+2026-01-12 20:36:52,405  INFO --- MqttFX ClientModel             : messageArrived() added: message #6 to topic 'Capteur'
+2026-01-12 21:02:21,842  INFO --- mqttfx                         : closeApp()
+Weld SE container STATIC_INSTANCE shut down by shutdown hook
