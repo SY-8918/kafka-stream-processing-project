@@ -1,0 +1,6 @@
+mqttfx/
+.idea/
+__pycache__/
+*.pyc
+*.jar
+*.exe
